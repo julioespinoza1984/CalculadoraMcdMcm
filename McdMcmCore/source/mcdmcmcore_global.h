@@ -1,0 +1,12 @@
+#ifndef MCDMCMCORE_GLOBAL_H
+#define MCDMCMCORE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(MCDMCMCORE_LIBRARY)
+#  define MCDMCMCORESHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define MCDMCMCORESHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // MCDMCMCORE_GLOBAL_H
