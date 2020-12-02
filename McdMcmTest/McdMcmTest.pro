@@ -16,11 +16,13 @@ INCLUDEPATH += source \
 
 SOURCES +=  source/testsuite.cpp \
     source/main.cpp \
-    source/entities/mcdmcmtest.cpp
+    source/entities/mcmtest.cpp \
+    source/entities/mcdtest.cpp
 
 HEADERS += \
     source/testsuite.h \
-    source/entities/mcdmcmtest.h
+    source/entities/mcmtest.h \
+    source/entities/mcdtest.h
 
 LIBS += -L$$PWD/../binaries/$$DESTINATION_PATH -lMcdMcmCore
 
