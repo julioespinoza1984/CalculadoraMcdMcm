@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file alias="Style.qml">assets/Style.qml</file>
+        <file alias="qmldir">assets/qmldir</file>
+        <file alias="display.png">assets/display.png</file>
+        <file alias="but-quit.png">assets/but-quit.png</file>
+        <file alias="button-.png">assets/button-.png</file>
+        <file alias="button-blue.png">assets/button-blue.png</file>
+        <file alias="button-green.png">assets/button-green.png</file>
+        <file alias="button-purple.png">assets/button-purple.png</file>
+        <file alias="button-red.png">assets/button-red.png</file>
+        <file alias="IconMcdMcm.png">assets/IconMcdMcm.png</file>
+    </qresource>
+</RCC>

@@ -30,7 +30,7 @@ private:
     std::ostringstream m_oss;
 };
 
-}
-}
+} // end namespace entities
+} // end namespace calMcdMcm
 
 #endif // MCDMCM_H

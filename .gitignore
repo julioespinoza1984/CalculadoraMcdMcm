@@ -1,5 +1,14 @@
-CalculadoraMcdMcm.pro.user
+.gitignore
 .directory
+CalculadoraMcdMcm.pro.user
 /binaries/
 /McdMcmCore/build/
 /McdMcmTest/build/
+/McdMcmUI/build/
+/McdMcmCore/source/entities/nbproject/
+/McdMcmCore/source/entities/main
+/McdMcmCore/source/entities/main.cpp
+/McdMcmCore/source/entities/main.o
+/McdMcmCore/source/entities/Makefile
+/McdMcmCore/source/entities/mcdMcm.o
+/McdMcmCore/source/entities/mcdMcmException.h

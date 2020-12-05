@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     McdMcmCore \
-    McdMcmTest
+    McdMcmTest \
+    McdMcmUI
