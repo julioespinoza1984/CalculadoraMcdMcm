@@ -6,7 +6,6 @@ import QtQuick.Controls.Styles 1.4
 import components 1.0
 import assets 1.0
 
-
 ApplicationWindow {
     id: root;
     visible: true
