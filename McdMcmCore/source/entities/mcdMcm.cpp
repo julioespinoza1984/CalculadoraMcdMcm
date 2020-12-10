@@ -97,6 +97,12 @@ void McdMcm::add(const unsigned long a)
 
 unsigned long McdMcm::getMcd(unsigned long a, unsigned long b)
 {
+    if(b == 0) {
+        return a;
+    }
+    if(a == 0) {
+        return b;
+    }
     if(b > 0) {
         unsigned long temp;
         while(a > 0) {
